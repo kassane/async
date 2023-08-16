@@ -50,7 +50,7 @@ struct my_composed_op : asio::coroutine
 template<typename Token>
 auto my_composed(asio::io_context & ctx, Token && token)
 {
-  return asio::cobalt_compose<Token, void()>(my_composed_op{}, token, ctx.get_executor());
+  return asio::async_compose<Token, void()>(my_composed_op{}, token, ctx.get_executor());
 }
 
 

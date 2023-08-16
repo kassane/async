@@ -1,0 +1,63 @@
+.{
+    .name = "cobalt",
+    .version = "1.86.0",
+    .paths = .{""},
+    .dependencies = .{
+        .beast = .{
+            .url = "git+https://github.com/kassane/beast#aa55fbd548481bf781ba9f669cc999fd05c2bbdd",
+            .hash = "1220fdca544522c4ac441097559c7523931f412918a3532d8779be605e871a76f016",
+        },
+        .circular_buffer = .{
+            .url = "git+https://github.com/boostorg/circular_buffer#05a83223e4494edd86d099b672eba4367b45677b",
+            .hash = "1220a83deb2b81535c851b38903fa778ceac6fd71369786788e3e8804581d5d1fe02",
+        },
+        .leaf = .{
+            .url = "git+https://github.com/boostorg/leaf#ed8f9cd32f4fde695d497502f696f6f861b68559",
+            .hash = "122070b8e9a80b85d8bb52f817eba7660d52f550ca04c3b06832d2f1d7ad5b59d817",
+        },
+        .url = .{
+            .url = "git+https://github.com/boostorg/url#50f7247e7c47d1b34d166b7d0cc92c186341ad18",
+            .hash = "12209121dcacaa3ecd8dbeb0ab439f01da9b7ac90b4f984cf6398d428db45f1da54b",
+        },
+        .function = .{
+            .url = "git+https://github.com/boostorg/function#1204b7d20091c1ac65fb02a1d5991a82098e4f77",
+            .hash = "12202dcac10101564252c3b9194f125ca52e4aaa28958596d21367e0dd240fce351d",
+        },
+        .signals2 = .{
+            .url = "git+https://github.com/boostorg/signals2#83d10662a494d3cdbeeb30d33026cdc500bf3dd8",
+            .hash = "122016600e91bdbde5c63398f03c4ec6a82b3173963d4450950627b6ee75f4342776",
+        },
+        .variant = .{
+            .url = "git+https://github.com/boostorg/variant#b33ff4f811a27d4dc4a4c8a840310523de4df4f8",
+            .hash = "12200c7466be09b4b30dd2ffa68fa94e53678e2b538bb4944a56a635fcd514f330f4",
+        },
+        .integer = .{
+            .url = "git+https://github.com/boostorg/integer#c37a3402beff5da04790d054bd7292920b433046",
+            .hash = "12200c5057e038ca6be7ca5c6847b6fbe72da5e495cc2fb04c9e1413329452a391d4",
+        },
+        .parameter = .{
+            .url = "git+https://github.com/boostorg/parameter#f31a7acfccbf2b41b60d2d540b53ab6c61458632",
+            .hash = "122023deae6409c8eb1e0029026b3a078400227ce7ba1dff7a3059612789e0c6e658",
+        },
+        .callable_traits = .{
+            .url = "git+https://github.com/boostorg/callable_traits#2a56a3a2496cdb66496f844db55085dd992d5e49",
+            .hash = "1220a956282e6fb69220481426884bce23895c3981de280c3fb33c80271a63ee6647",
+        },
+        .type_index = .{
+            .url = "git+https://github.com/boostorg/type_index#e37bc99e85e85bcac420ac1d4c1a8a5bca280d47",
+            .hash = "12201ef5b77c5641b5c74eb25ef6931a48b6a096f90cee32d3b435bbcfd8429ed4f4",
+        },
+        .lockfree = .{
+            .url = "git+https://github.com/boostorg/lockfree#82961738b5d779e27d095c62708053efe5621abb",
+            .hash = "12201b2e03177a2ce4b3da95c7b4b51bd4febc28f3703efb0b54fcc6fce192317dcf",
+        },
+        .context = .{
+            .url = "git+https://github.com/kassane/context#2754b7bdc0b5823332e32643c8a740a803a153ee",
+            .hash = "1220803d17d8662cf20f5f0d0e73d7be83dd8c16eeea04454d66d6e01fc8e97aa747",
+        },
+        .unordered = .{
+            .url = "git+https://github.com/boostorg/unordered#d61719a196a6022d9dc68f5118c16c881bb5a0d4",
+            .hash = "12206ffe9416fa0bf004868e15d0b8ce9235ced92641032c47e06246cb3f27e42956",
+        },
+    },
+}
